@@ -8,10 +8,9 @@ number = 2
 index = 2
 
 for i in range(index + 1 , 5):
-    print(i)
     rot.append(array[i])
 
-for _ in range(index):
-    rot.append(_)
+for _ in range(index + 1):
+    rot.append(array[_])
 
 print(rot)
