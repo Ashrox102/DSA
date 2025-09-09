@@ -4,7 +4,6 @@ def fibo(num):
     elif num == 1:
         return 1
     else:
-        print()
         return fibo(num-1) + fibo(num-2)
     
 a = int(input("enter how much fibo"))
